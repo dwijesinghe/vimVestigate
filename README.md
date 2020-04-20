@@ -26,12 +26,12 @@ If you don't have it already, install [NERDTree](https://github.com/preservim/ne
 4. Move your cursor over the a result filename as shown below. Press `e` to open that file to the detected line number
 5. To enable highlighting move `syntax/vimvestigatorSyntax.vim` to `~/.vim/syntax/` (or move the syntax folder to `~/.vim` if you don't have a syntax folder already)
 
+## Why is it called "vimVestigate"? Why not just "Find In Folder" or "Find In Path"?
+Because I can't resist a good pun ;)
+
 ## Notes
 * This plugin creates the file `~/.vim/vimvestigator` which is used to store the folder search results. The first time the `:VV` command is used, this file will be created.
 * This plugin uses Python 2
-
-## Why is it called "vimVestigate"? Why not just "Find In Folder" or "Find In Path"?
-Because I can't resist a good pun ;)
 
 ## Contributing
 I welcome collaboration. Please maintain the general style of code and always feel free to poke me for additional information.
