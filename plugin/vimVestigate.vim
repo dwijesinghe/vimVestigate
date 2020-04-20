@@ -23,6 +23,10 @@ def folderSearch(folderpath, string):
 	fullPath = os.path.expanduser(folderpath)
 	vvFile.write('Searching {} for "{}":'.format(fullPath, string))
 	count = 0 
+	# This portion of code taken and modified from Stack Overflow
+	# user jwpfox. Special thanks for an excellent answer.
+	# Original post can be found at:
+	# https://stackoverflow.com/questions/39974584/search-all-files-in-a-folder
 	for(path, dirs, files) in os.walk(fullPath, topdown=True):
 		for filename in files:
 			filepath = os.path.join(path, filename)
