@@ -6,7 +6,8 @@ let s:string = join(a:000)
 let s:folderpath = getcwd() 
 vsplit
 wincmd l
-e ~/.vim/vimvestigator
+let s:vvpath = "~/vimvestigator"
+execute 'e ' s:vvpath
 w!
 
 " We start the python code like the next line.
@@ -18,7 +19,7 @@ import errno
 
 def folderSearch(folderpath, string):
 
-	vvFilePath = os.path.expanduser('~/.vim/vimvestigator')
+	vvFilePath = os.path.expanduser(vim.eval('s:vvpath'))
 	vvFile = open(vvFilePath, "w+")
 	fullPath = os.path.expanduser(folderpath)
 	vvFile.write('Searching {} for "{}":'.format(fullPath, string))
@@ -49,7 +50,7 @@ def folderSearch(folderpath, string):
 folderSearch(vim.eval('s:folderpath'), vim.eval('s:string'))
 EOF
 
-e ~/.vim/vimvestigator
+execute 'e ' s:vvpath
 set syntax=vimvestigatorSyntax
 map <buffer> e :call GoToResult()<cr>
 /\d\.

@@ -34,7 +34,7 @@ If you don't have it already, install [NERDTree](https://github.com/preservim/ne
 Because I can't resist a good pun ;)
 
 ## Notes
-* This plugin creates the file `~/.vim/vimvestigator` which is used to store the folder search results. The first time the `:VV` command is used, this file will be created.
+* This plugin creates the file `~/vimvestigator` which is used to store the folder search results. The first time the `:VV` command is used, this file will be created. Don't worry if its deleted though, the plugin will just create a new one the next time it is run.
 * This plugin uses Python 2
 
 ## Contributing
