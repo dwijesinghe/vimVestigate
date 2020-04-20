@@ -20,7 +20,7 @@ If you don't have it already, install [NERDTree](https://github.com/preservim/ne
 1. Move your cursor over the folder you want to search as shown below
 ![Screenshot](https://github.com/dwijesinghe/vimvestigate/raw/master/screenshots/VimVestigateStart.png)
 
-2. Enter the command `:VV text to search` (no quotes necessary around search text) and press Enter as shown below
+2. Enter the command `:VV text to search` (no quotes needed around search text) and press Enter as shown below
 ![Screenshot](https://github.com/dwijesinghe/vimvestigate/raw/master/screenshots/VimVestigateCommand.png)
 
 3. The results will appear in a new vsplit pane to the right of the current buffer (in a buffer called `vimvestigator`...because I love puns)
