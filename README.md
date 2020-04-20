@@ -1,5 +1,5 @@
 # vimVestigate
-##### Find in Folder/Find in Path functionality for Vim - built to integrate with NERDTree
+### Find in Folder/Find in Path functionality for Vim - built to integrate with NERDTree
 ![Screenshot](https://github.com/dwijesinghe/vimvestigate/raw/master/screenshots/VimVestigateResult.png)
 
 ## Introduction
