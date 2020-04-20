@@ -28,7 +28,7 @@ If you don't have it already, install [NERDTree](https://github.com/preservim/ne
 4. Move your cursor over the a result filename as shown below. Press `e` to open that file to the detected line number
 ![Screenshot](https://github.com/dwijesinghe/vimvestigate/raw/master/screenshots/VimVestigateResult.png)
 
-5. To enable highlighting move `syntax/vimvestigatorSyntax.vim` to `~/.vim/syntax/` (or move the syntax folder to `~/.vim` if you don't have a syntax folder already)
+5. To enable highlighting move `syntax/vimvestigatorSyntax.vim` to `~/.vim/syntax/` (or move the syntax folder to `~/.vim` if you don't have a syntax folder already). Then add `au BufRead,BufNewFile vimvestigator set filetype=vimvestigatorSyntax` to your `.vimrc`.
 
 ## Why is it called "vimVestigate"? Why not just "Find In Folder" or "Find In Path"?
 Because I can't resist a good pun ;)
