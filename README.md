@@ -3,7 +3,7 @@
 ![Screenshot](https://github.com/dwijesinghe/vimvestigate/raw/master/screenshots/VimVestigateResult.png)
 
 ## Introduction
-Fully recursive folder searching in vim. For users of Sublime/Visual Studio Code, this plugin integrates with NERDTree to provide the same functionalality as right-clicking a folder in the sidebar and selecting Find in Folder/Find in Path.
+Fully recursive folder searching in vim. For users of Sublime/Visual Studio Code, this plugin integrates with NERDTree to provide the same functionality as right-clicking a folder in the sidebar and selecting Find in Folder/Find in Path.
 
 ## Installation
 
